@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    background-color: #111;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 300px; /* Fixed height for the thumbnail image */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.article {
+    width: 66.67%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.article h1 {
+    margin-top: 0;
+}
+
+.article .date {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.sidebar {
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.sidebar .pictures img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 150px; /* Fixed height for the sidebar images */
+    object-fit: cover; /* Ensures the images cover the area */
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comments-section h2 {
+    margin-top: 0;
+}
+
+.comments-section textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}

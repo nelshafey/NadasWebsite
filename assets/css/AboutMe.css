@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header .cover-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 3rem;
+}
+
+nav#nav {
+    background: #3E4A61;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav#nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav#nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+    display: block;
+}
+
+nav#nav ul li a:hover {
+    background: #596882;
+    border-radius: 5px;
+}
+
+main {
+    padding: 0 2rem;
+}
+
+section#about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+section#about-me img {
+    border-radius: 10px;
+    width: 30%;
+    margin-right: 2rem;
+}
+
+section#about-me div {
+    max-width: 600px;
+}
+
+section {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#education, section#bucket-list, section#daily-technology, section#movies-tv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section h2 {
+    color: #3E4A61;
+}
+
+.education-entry, .bucket-list, .daily-technology, .movies-tv {
+    margin-bottom: 1rem;
+}
+
+.education-entry h3, .bucket-list h3, .daily-technology h3, .movies-tv h3 {
+    margin: 0;
+}
+
+.education-entry p, .bucket-list p, .daily-technology p, .movies-tv p {
+    margin: 0.3rem 0;
+}
+
+section#blog-posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+section#blog-posts .blog-post {
+    width: 30%;
+    text-align: center;
+}
+
+section#blog-posts .blog-post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+section#contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+section#contact ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+section#contact ul li a {
+    text-decoration: none;
+    color: #3E4A61;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+section#contact ul li a:hover {
+    color: #596882;
+}
